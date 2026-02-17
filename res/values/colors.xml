@@ -1,0 +1,20 @@
+<resources>
+    <!-- Уже существующие цвета -->
+    <color name="background">#181818</color>
+    <color name="header">#202020</color>
+    <color name="textLabel">#B2B2B2</color>
+    <color name="inputBg">#1F1F1F</color>
+    <color name="outputBg">#252525</color>
+    <color name="errorStroke">#FF0000</color>
+    <color name="settingsText">#6F6F6F</color>
+
+    <!-- Недостающие цвета для night-values -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="black">#000000</color>
+
+    <color name="btn_save">#1B1B1B</color>
+    <color name="bottom_bar">#222222</color>
+
+</resources>

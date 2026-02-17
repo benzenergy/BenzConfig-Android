@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#181818"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#202020"
+            android:gravity="bottom|start"
+            android:paddingBottom="6dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_marginEnd="200dp"
+                android:layout_marginBottom="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/logo"
+                android:contentDescription="@string/logo"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="12dp"
+            android:text="Летний пробег"
+            android:textColor="#B2B2B2"
+            android:textSize="16sp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputSummer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/bg_input"
+            android:layout_margin="12dp"
+            android:hint="Введите данные"
+            android:textColorHint="#B2B2B2"
+            android:textCursorDrawable="@drawable/cursor_white"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:fontFamily="@font/gilroy_regular"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:id="@+id/btnSummerCalcWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_button_rounded">
+
+            <ImageView
+                android:id="@+id/btnSummerCalc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_gradient_text"
+                android:contentDescription="Рассчитать"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnSummerSettingsWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_button_rounded">
+
+            <ImageView
+                android:id="@+id/btnSummerSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_settings"
+                android:contentDescription="Настройки"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/outputSummer"
+            android:layout_margin="12dp"
+            android:background="@drawable/bg_output"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:minHeight="144dp"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="12dp"
+            android:text="Зимний пробег"
+            android:textColor="#B2B2B2"
+            android:textSize="16sp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputWinter"
+            android:layout_margin="12dp"
+            android:background="@drawable/bg_input"
+            android:hint="Введите данные"
+            android:textCursorDrawable="@drawable/cursor_white"
+            android:padding="15dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B2B2B2"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            android:id="@+id/btnWinterCalcWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_button_rounded">
+
+            <ImageView
+                android:id="@+id/btnWinterCalc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_gradient_text"
+                android:contentDescription="Рассчитать"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnWinterSettingsWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_button_rounded">
+
+            <ImageView
+                android:id="@+id/btnWinterSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_settings"
+                android:contentDescription="Настройки"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/outputWinter"
+            android:layout_margin="12dp"
+            android:background="@drawable/bg_output"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:minHeight="144dp"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnAbout"
+            style="@style/AppButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_margin="12dp"
+            android:text="i"
+            android:padding="0dp"
+            android:textSize="20sp"
+            android:textColor="#535353"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_button_rounded" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#3A3A3A"/>
+            <padding android:top="4dp" android:bottom="0dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#2A2A2A"/>
+        </shape>
+    </item>
+</selector>

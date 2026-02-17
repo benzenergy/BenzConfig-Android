@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BenzConfig</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="logo">logo</string>
+</resources>

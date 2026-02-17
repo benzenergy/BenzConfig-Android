@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#252525"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Зимний режим"
+            android:background="#252525"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:text="Пропорции"
+            android:textColor="#B2B2B2"
+            android:textSize="18sp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Город"
+            android:textColor="#767676"
+            android:textSize="16sp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/cityProp"
+            android:hint="Введите данные"
+            android:textColorHint="#767676"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:background="@drawable/bg_input"
+            android:padding="15dp"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/cursor_white"/>
+
+        <TextView
+            android:text="Трасса"
+            android:textColor="#767676"
+            android:textSize="16sp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/highwayProp"
+            android:hint="Введите данные"
+            android:textColorHint="#767676"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_input"
+            android:padding="15dp"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/cursor_white"/>
+
+        <TextView
+            android:text="Нормы расхода"
+            android:textColor="#B2B2B2"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Город"
+            android:textColor="#767676"
+            android:textSize="16sp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/cityRate"
+            android:hint="Введите данные"
+            android:textColorHint="#767676"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/bg_input"
+            android:padding="15dp"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/cursor_white"/>
+
+        <TextView
+            android:text="Трасса"
+            android:textColor="#767676"
+            android:textSize="16sp"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/highwayRate"
+            android:hint="Введите данные"
+            android:textColorHint="#767676"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_input"
+            android:padding="15dp"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textCursorDrawable="@drawable/cursor_white"/>
+
+    </LinearLayout>
+</ScrollView>

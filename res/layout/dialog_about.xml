@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#252525"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:src="@drawable/logo2"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BenzConfig 2.5"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:fontFamily="@font/bai_jamjuree_semibold" />
+
+        <TextView
+            android:id="@+id/licenseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B2B2B2"
+            android:textColorLink="#EBBE22"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/flaticonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B2B2B2"
+            android:textColorLink="#EBBE22"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/githubText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B2B2B2"
+            android:textColorLink="#EBBE22"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2025 benzenergy\n"
+            android:layout_marginTop="2sp"
+            android:textSize="12sp"
+            android:textColor="#6F6F6F" />
+
+    </LinearLayout>
+</LinearLayout>

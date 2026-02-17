@@ -1,0 +1,21 @@
+<resources>
+    <style name="AppButton">
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/bg_output</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:fontFamily">@font/bai_jamjuree_semibold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:background">#424242</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
