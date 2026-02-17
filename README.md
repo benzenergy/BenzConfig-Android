@@ -4,10 +4,7 @@ BenzConfig PWA <br>
 
 Скриншот <br>
 ![shot](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/il1.png)
-<br>
-Скриншот <br>
-![shot](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/il2.png)
-<br>
+
 Лицензия <br>
 GNU General Public License v3.0 <br>
 
