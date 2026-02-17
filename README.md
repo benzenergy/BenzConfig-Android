@@ -1,4 +1,4 @@
-BenzConfig PWA <br>
+BenzConfig 2.5 <br>
 Приложение для расчёта расхода топлива <br>
 [Скачать RuStore](https://www.rustore.ru/catalog/app/com.benzenergy.benzconfig25)
 <br>
