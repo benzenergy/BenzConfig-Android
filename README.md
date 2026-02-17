@@ -3,7 +3,7 @@ BenzConfig PWA <br>
 [Скачать RuStore](https://www.rustore.ru/catalog/app/com.benzenergy.benzconfig25)
 
 Скриншот <br>
-![shot](https://github.com/benzenergy/BenzConfig-PWA/blob/main/github/android.png)
+![shot](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/andorid.png)
 
 Лицензия <br>
 GNU General Public License v3.0 <br>
