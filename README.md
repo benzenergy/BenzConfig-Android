@@ -1,10 +1,10 @@
-BenzConfig 2.5 <br>
+## BenzConfig 2.5 <br>
 Приложение для расчёта расхода топлива <br>
 [Скачать RuStore](https://www.rustore.ru/catalog/app/com.benzenergy.benzconfig25)
 
 ## Скачать приложение
 
-[![Скачать в RuStore](https://www.rustore.ru/help/images/badge/ru_badge.svg)](https://www.rustore.ru/catalog/app/com.example.app)
+[![Скачать в RuStore](github/rustore-badge.svg)](https://www.rustore.ru/catalog/app/com.benzenergy.benzconfig25)
 
 <br>
 
