@@ -7,6 +7,7 @@ BenzConfig 2.5 <br>
 </a>
 
 [![Website](https://img.shields.io/badge/Website-Visit-blue?logo=google-chrome)](https://your-link.com)
+[![Скачать в RuStore](https://www.rustore.ru/help/assets/images/logo-dark-256x256-1.png)](ВАША_ССЫЛКА_НА_RUSTORE)
 
 <br>
 
