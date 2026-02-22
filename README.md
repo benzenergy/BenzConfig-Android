@@ -6,7 +6,7 @@ BenzConfig 2.5 <br>
 
 <br>
 
-![shot](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/il1.png)
+![mainground](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/mainground.png)
 
 Лицензия <br>
 GNU General Public License v3.0 <br>
