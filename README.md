@@ -1,7 +1,7 @@
-## BenzConfig 2.5
-Приложение для расчёта расхода топлива
-[![Скачать в RuStore](github/rustore-badge.svg)](https://www.rustore.ru/catalog/app/com.benzenergy.benzconfig25)
-![mainground](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/mainground.png)
+## BenzConfig 2.5<br>
+Приложение для расчёта расхода топлива<br>
+[![Скачать в RuStore](github/rustore-badge.svg)](https://www.rustore.ru/catalog/app/com.benzenergy.benzconfig25)<br>
+![mainground](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/mainground.png)<br>
 Лицензия <br>
 GNU General Public License v3.0 <br>
 ![GPL](https://github.com/benzenergy/BenzConfig-PWA/blob/main/github/gplv3.png)
