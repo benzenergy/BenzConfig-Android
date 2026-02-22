@@ -3,7 +3,7 @@ BenzConfig 2.5 <br>
 [Скачать RuStore](https://www.rustore.ru/catalog/app/com.benzenergy.benzconfig25)
 <br>
 
-![shot](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/mainground.png)
+![shot](https://github.com/benzenergy/BenzConfig-Android/blob/main/github/il2.png)
 
 Лицензия <br>
 GNU General Public License v3.0 <br>
