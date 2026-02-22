@@ -6,6 +6,7 @@ BenzConfig 2.5 <br>
   <img src="https://img.shields.io/badge/Download-GitHub-green.svg" alt="Download">
 </a>
 
+[![Website](https://img.shields.io/badge/Website-Visit-blue?logo=google-chrome)](https://your-link.com)
 
 <br>
 
