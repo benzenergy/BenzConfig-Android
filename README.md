@@ -5,3 +5,5 @@
 <br>
  
  ![GPL](github/gplv3.png)
+
+[![Скачать с Яндекс.Диска](https://img.shields.io/badge/Скачать-Яндекс.Диск-red?logo=yandex)](https://disk.yandex.ru/d/ABC123XYZ)
